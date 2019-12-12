@@ -14,7 +14,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
+/*7.工具类
 
+getToken:传入接口请求返回结果对象和jsonpath路径，获取token
+
+dtt : 读取excel中的数据，传入excel路径和excel的sheet id
+
+getstauteCode:获取返回结果的状态码*/
 
 public class TestUtil {
 

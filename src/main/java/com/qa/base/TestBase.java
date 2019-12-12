@@ -20,3 +20,7 @@ public class TestBase {
         }
     }
 }
+/*文件代码作用说明：
+        1.测试基类TestBase：
+
+        接口请求的testcase类需要继承此类去读取properties文件*/

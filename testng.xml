@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- #由于之前已经通过Extentreport插件实现了Testng的IReport接口，所以在testng.xml中使用listener标签并指向实现IReport接口的那个类就可以替换原始的testngreport
+
+        testng配置如下:
+
+        单suite，单test
+
+        test name 指向你写的testCase,methods放入需要执行的方法 -->
 <suite name="test" verbose="1" preserve-order="true" parallel="false">
     <test name="项目1">
         <classes>

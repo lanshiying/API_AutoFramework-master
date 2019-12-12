@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/*5.接口请求方法
+封装post方法, 普通get方法，需要header的get方法,delete方法*/
 
 public class RestClient {
     final static Logger Log = Logger.getLogger(RestClient.class.getClass());

@@ -16,6 +16,12 @@ import java.io.IOException;
 import java.util.HashMap;
 
 import static com.qa.util.TestUtil.dtt;
+/*每种请求类型放入不同的sheet中，就可以避免新建太多的excel去做数据驱动。
+
+XSSFSheet类提供了一个读取sheet的方法，getSheetAt(int)，通过下标去访问想要的sheet
+
+1.Excel，添加两个sheet页改名成get , delete，代表这两种类型的接口
+ 2. 在用例的dataProvider中将这两个sheet作两个方法分别读取。再传入对应的test中*/
 
 public class testCase1 extends TestBase {
     TestBase testBase;

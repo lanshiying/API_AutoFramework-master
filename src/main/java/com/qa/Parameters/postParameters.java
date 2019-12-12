@@ -1,4 +1,9 @@
 package com.qa.Parameters;
+/*Post类型的接口通常有请求参数，请求参数也是json类型，所以需要写一个类将请求参数序列化成json对象
+
+以常见的登录接口为例
+
+新建一个package,和postParameters类*/
 
 public class postParameters {
     private String userName;

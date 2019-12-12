@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
-      <module name="API_AutoFramework" target="13" />
+      <module name="API_AutoFramework" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

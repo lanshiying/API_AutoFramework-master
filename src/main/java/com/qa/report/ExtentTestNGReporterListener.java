@@ -12,6 +12,11 @@ import org.testng.xml.XmlSuite;
 
 import java.io.File;
 import java.util.*;
+/*4.report样式，我使用的是extentreprot插件
+实现方式是实现testNG的IReporter接口，再通过testng.xml中listener标签进行监听
+ */
+
+
 
 public class ExtentTestNGReporterListener implements IReporter{
 
